@@ -1,16 +1,38 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Class Project</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f7f5ed" />
+  <title>The Good Life Lab | Four Ways to Explore</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Welcome to My Website!</h1>
-    <p>Choose a game to play:</p>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-mark">✳</span> THE GOOD LIFE LAB</a>
+    <span class="course">BADM 199 · CAMPUS HONORS PROGRAM</span>
+  </header>
 
-    <a href="game1.html">Game 1</a>
-    <a href="game2.html">Game 2</a>
-    <a href="game3.html">Game 3</a>
-    <a href="game4.html">Game 4</a>
+  <main>
+    <section class="hero" aria-labelledby="main-title">
+      <div class="eyebrow"><span class="eyebrow-line"></span> A SMALL EXPERIMENT IN LIVING WELL</div>
+      <h1 id="main-title">What makes<br />a <em>good life?</em></h1>
+      <p class="intro">There isn't just one answer. Explore four ideas from The Good Life Lab through four little games—each an invitation to pause, reflect, and play.</p>
+      <a class="explore" href="#games">Explore the games <span aria-hidden="true">↘</span></a>
+      <div class="decor" aria-hidden="true"><span class="decor-circle"></span><span class="decor-dot"></span><span class="decor-spark">✳</span></div>
+    </section>
+
+    <section class="games-section" id="games" aria-labelledby="games-title">
+      <div class="section-top"><div><p class="section-kicker">THE EXPERIENCE</p><h2 id="games-title">Four paths to explore.</h2></div><p class="section-note">Pick any one to begin.</p></div>
+      <div class="game-grid">
+        <a class="game-card card-one" href="game1.html"><span class="card-number">01 / 04</span><span class="card-symbol" aria-hidden="true">✦</span><span class="card-bottom"><span><span class="card-label">GAME ONE</span><strong>Theme 01</strong></span><span class="arrow" aria-hidden="true">↗</span></span></a>
+        <a class="game-card card-two" href="game2.html"><span class="card-number">02 / 04</span><span class="card-symbol" aria-hidden="true">◎</span><span class="card-bottom"><span><span class="card-label">GAME TWO</span><strong>Theme 02</strong></span><span class="arrow" aria-hidden="true">↗</span></span></a>
+        <a class="game-card card-three" href="game3.html"><span class="card-number">03 / 04</span><span class="card-symbol" aria-hidden="true">✳</span><span class="card-bottom"><span><span class="card-label">GAME THREE</span><strong>Theme 03</strong></span><span class="arrow" aria-hidden="true">↗</span></span></a>
+        <a class="game-card card-four" href="game4.html"><span class="card-number">04 / 04</span><span class="card-symbol" aria-hidden="true">◒</span><span class="card-bottom"><span><span class="card-label">GAME FOUR</span><strong>Theme 04</strong></span><span class="arrow" aria-hidden="true">↗</span></span></a>
+      </div>
+    </section>
+    <section class="closing"><span aria-hidden="true">✳</span><p>A good life isn't a destination.<br /><em>It's something we practice.</em></p></section>
+  </main>
+  <footer><span>THE GOOD LIFE LAB · FALL 2026</span><span>UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN</span></footer>
 </body>
 </html>
